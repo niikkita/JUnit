@@ -39,7 +39,6 @@ public class OrderEntityToOrderSummaryTransformerTest {
 		Assert.assertEquals(3, result.getItemCount());
 		
 	}
-	
 	@Test
 	@Ignore
 	public void test_transform_inputIsNull()
